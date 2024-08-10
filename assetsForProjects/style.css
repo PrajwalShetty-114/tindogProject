@@ -1,0 +1,724 @@
+
+
+  
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+/*title */
+.container {
+  height: 100vh;
+  width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0;
+}
+
+.innerDiv {
+  align-self: center;
+  
+}
+
+.innerDiv>h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.buttons {
+  margin-right: 10px
+}
+
+.secondInnerDiv {
+  
+  padding-bottom: 0;
+}
+
+
+/* featurs*/
+.Features {
+  display: flex;
+  height: 50vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* Testimonial*/
+.Testimonial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  height: 70vh;
+  justify-content: flex-end;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+ 
+}
+
+.circularDog {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.outerRow {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.dogs {
+  margin-bottom: 30px;
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+
+/* Pricing*/
+.pricing {
+  height: 95vh;
+  padding-top: 5%;
+}
+
+.pricing>h1,
+.pricing>p {
+  text-align: center;
+}
+
+.pricing>h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.pricing>p {
+  font-size: 1.5rem;
+}
+
+.costs {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.costs>div {
+  display: flex;
+  flex-direction: column;
+  border-color: black;
+}
+
+.costSection>div,
+.costSection>p {
+  text-align: center;
+}
+
+.costSection {
+  background-color: azure;
+  width: 30%;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px gray;
+  padding-bottom: 10px;
+}
+
+.gray {
+  display: block;
+  background-color: whitesmoke;
+  color: black;
+  border-color: black;
+  font-size: 2rem;
+  border-radius: 12px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  border-radius: 12px;
+}
+
+.dollar>.span {
+  font-weight: bold;
+}
+
+.dollar {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.button {
+  background-color: black;
+  width: 80%;
+  align-self: center;
+  color: white;
+}
+
+.button1 {
+  background-color: white;
+  width: 80%;
+  align-self: center;
+  color: black;
+}
+
+/* Footer*/
+.sections li {
+  list-style: none;
+}
+
+.spans {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sections {
+  padding-right: 150px;
+}
+
+.sectionContainer {
+  display: flex;
+  height: 50vh;
+  justify-content: flex-end;
+  align-items: center;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.Footer {
+  height: 50vh;
+}
+
+.brand {
+  float: left;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.anker {
+  color: black;
+  text-decoration: none;
+}
+@media (max-width:1050px) {
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  /*title */
+  .container {
+    height: 130vh;
+    width: 1400px;
+    display: block;
+  }
+
+  .innerDiv>h1 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  .buttons {
+    margin-right: 10px
+  }
+
+  .secondInnerDiv {
+    display: flex;
+    align-self: flex-start;
+  }
+
+  .dog {
+    padding-top: 84px;
+    padding-bottom: 0px;
+  }
+
+
+  /* featurs*/
+  .Features {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  /* Testimonial*/
+  .Testimonial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 100vh;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  .circularDog {
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .outerRow {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+
+  }
+
+
+  .dogs {
+    margin-bottom: 30px;
+  }
+
+  /* Pricing*/
+  .pricing {
+    height: 240vh;
+    padding-top: 5%;
+
+  }
+
+  .pricing>h1,
+  .pricing>p {
+    text-align: center;
+  }
+
+  .pricing>h1 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  .pricing>p {
+    font-size: 1.5rem;
+  }
+
+  .costs {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200vh;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    flex-shrink: 1;
+
+  }
+
+  .costs>div {
+    
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+   
+  }
+
+  .costSection>div,
+  .costSection>p {
+    text-align: center;
+  }
+
+  .costSection {
+
+    background-color: azure;
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px gray;
+    padding-bottom: 10px;
+  }
+
+  .gray {
+    display: block;
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+    font-size: 2rem;
+    border-radius: 12px;
+  }
+
+  .black {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border-radius: 12px;
+  }
+
+  .dollar>.span {
+    font-weight: bold;
+  }
+
+  .dollar {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .button {
+    background-color: black;
+    width: 80%;
+    align-self: center;
+    color: white;
+  }
+
+  .button1 {
+    background-color: white;
+    width: 80%;
+    align-self: center;
+    color: black;
+  }
+
+  /* Footer*/
+  .sections li {
+    list-style: none;
+  }
+
+  .spans {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .sections {
+    padding-right: 150px;
+  }
+
+  .sectionContainer {
+    display: flex;
+    height: 50vh;
+    justify-content: flex-end;
+    align-items: center;
+    border: 0;
+    margin-bottom: 0;
+  }
+
+  .Footer {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionContainer {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+
+  .brand {
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  .anker {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media (max-width:780px) {
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  /*title */
+  .container {
+    height: 130vh;
+    width: 1400px;
+    display: block;
+  }
+
+  .innerDiv>h1 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  .buttons {
+    margin-right: 10px
+  }
+
+  .secondInnerDiv {
+    display: flex;
+    align-self: flex-start;
+  }
+
+  .dog {
+    padding-top: 84px;
+    padding-bottom: 0px;
+  }
+
+
+  /* featurs*/
+  .Features {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  /* Testimonial*/
+  .Testimonial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 100vh;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  .circularDog {
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .outerRow {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+
+  }
+
+
+  .dogs {
+    margin-bottom: 30px;
+  }
+
+  /* Pricing*/
+  .pricing {
+    height: 240vh;
+    padding-top: 5%;
+
+  }
+
+  .pricing>h1,
+  .pricing>p {
+    text-align: center;
+  }
+
+  .pricing>h1 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  .pricing>p {
+    font-size: 1.5rem;
+  }
+
+  .costs {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200vh;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    flex-shrink: 1;
+
+  }
+
+  .costs>div {
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+  }
+
+  .costSection>div,
+  .costSection>p {
+    text-align: center;
+  }
+
+  .costSection {
+
+    background-color: azure;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px gray;
+    padding-bottom: 10px;
+  }
+
+  .gray {
+    display: block;
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+    font-size: 2rem;
+    border-radius: 12px;
+  }
+
+  .black {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border-radius: 12px;
+  }
+
+  .dollar>.span {
+    font-weight: bold;
+  }
+
+  .dollar {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .button {
+    background-color: black;
+    width: 80%;
+    align-self: center;
+    color: white;
+  }
+
+  .button1 {
+    background-color: white;
+    width: 80%;
+    align-self: center;
+    color: black;
+  }
+
+  /* Footer*/
+  .sections li {
+    list-style: none;
+  }
+
+  .spans {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .sections {
+    padding-right: 150px;
+  }
+
+  .sectionContainer {
+    display: flex;
+    height: 50vh;
+    justify-content: flex-end;
+    align-items: center;
+    border: 0;
+    margin-bottom: 0;
+  }
+
+  .Footer {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionContainer {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+
+  .brand {
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  .anker {
+    color: black;
+    text-decoration: none;
+  }
+}
